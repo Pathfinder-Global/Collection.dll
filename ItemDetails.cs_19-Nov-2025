@@ -1,0 +1,89 @@
+// Decompiled with JetBrains decompiler
+// Type: Collections.ItemDetails
+// Assembly: Collections, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 379CE1CB-AE52-40F2-ADF8-DCE2AF65ABD5
+// Assembly location: D:\new ouput\DIS6\DIS6_AIRP\Collections.dll
+
+using MongoDB.Bson;
+using System;
+
+#nullable disable
+namespace Collections;
+
+public class ItemDetails
+{
+  public ObjectId _id { get; set; }
+
+  public string TENANT_ID { get; set; }
+
+  public string SITE_ID { get; set; }
+
+  public string POS_TILL { get; set; }
+
+  public string SHIFT_NO { get; set; }
+
+  public string REC_TYPE { get; set; }
+
+  public string RECEIPT_NO { get; set; }
+
+  public int RECEIPT_DATE { get; set; }
+
+  public int RECEIPT_DAY { get; set; }
+
+  public int RECEIPT_MONTH { get; set; }
+
+  public int RECEIPT_YEAR { get; set; }
+
+  public string RECEIPT_TIME { get; set; }
+
+  public int RECEIPT_HOUR { get; set; }
+
+  public int RECEIPT_MINUTE { get; set; }
+
+  public int RECEIPT_SECONDS { get; set; }
+
+  public string BUSINESS_DT { get; set; }
+
+  public string ITEM_CODE { get; set; }
+
+  public string ITEM_NAME { get; set; }
+
+  public double ITEM_QTY { get; set; }
+
+  public double ITEM_PRICE { get; set; }
+
+  public string ITEM_CAT { get; set; }
+
+  public double ITEM_TAX { get; set; }
+    public double ITEM_TAX_RATE { get; set; }
+
+    public string ITEM_TAX_TYPE { get; set; }
+
+  public double ITEM_NET_AMT { get; set; }
+
+  public string OP_CUR { get; set; }
+
+  public double BC_EXCH { get; set; }
+
+  public string ITEM_STATUS { get; set; }
+
+  public double ITEM_DISCOUNT { get; set; }
+
+  public string TENANT_RECEIPT_ID { get; set; }
+
+  public int CUM_STATUS { get; set; }
+
+  public DateTime updated_at { get; set; }
+
+  public string DEPARTMENT { get; set; }
+
+  public string SUBCATEGORY { get; set; }
+
+  public string SALESPERSON { get; set; }
+
+  public string HSNCODE { get; set; }
+
+  public DateTime IN_TIME { get; set; }
+
+  public DateTime OUT_TIME { get; set; }
+}
