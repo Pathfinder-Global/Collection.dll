@@ -1,0 +1,99 @@
+// Decompiled with JetBrains decompiler
+// Type: Collections.Transactions
+// Assembly: Collections, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+// MVID: 379CE1CB-AE52-40F2-ADF8-DCE2AF65ABD5
+// Assembly location: D:\new ouput\DIS6\DIS6_AIRP\Collections.dll
+
+#nullable disable
+namespace Collections;
+
+public class Transactions
+{
+  public string REC_TYPE { get; set; }
+
+  public string LOCATION_CODE { get; set; }
+
+  public string TERMINAL_ID { get; set; }
+
+  public string SHIFT_NO { get; set; }
+
+  public string RCPT_NUM { get; set; }
+
+  public int RCPT_DT { get; set; }
+
+  public string BUSINESS_DT { get; set; }
+
+  public string RCPT_TM { get; set; }
+
+  public string INV_AMT { get; set; }
+
+  public string TAX_AMT { get; set; }
+
+  public string RET_AMT { get; set; }
+    public string DINE_IN { get; set; }
+    public string TAKE_AWAY { get; set; }
+    public string ONLINE { get; set; }
+    public string PRODUCT { get; set; }
+    public string SERVICE { get; set; }
+    public string OTHER_TYPE { get; set; }
+
+    public string DISCOUNT { get; set; }
+
+  public string CUST_NAME { get; set; }
+
+  public string CUST_GEN { get; set; }
+
+  public string CUST_NATION { get; set; }
+
+  public string CUST_EMAIL { get; set; }
+
+  public string CUST_CONT { get; set; }
+
+  public string CUST_PAX_TYPE { get; set; }
+
+  public string CUST_PP_NO { get; set; }
+
+  public string CUST_BP { get; set; }
+
+  public string CUST_FL_NO { get; set; }
+
+  public string CUST_FL_CLASS { get; set; }
+
+  public string CUST_BR_GATE_NO { get; set; }
+
+  public string CUST_PNR_NO { get; set; }
+
+  public string CUST_ORIGIN { get; set; }
+
+  public string CUST_DESTINATION { get; set; }
+
+  public string VOUCH_CODE { get; set; }
+
+  public string TRAN_STATUS { get; set; }
+
+  public string OP_CUR { get; set; }
+
+  public string BC_EXCH { get; set; }
+
+  public int DATE_OF_DEPARTURE { get; set; }
+
+  public string SERCHARGE_AMT { get; set; }
+
+  public string SALESPERSON { get; set; }
+
+  public string CustomerMobileNo { get; set; }
+
+  public string CustomerID { get; set; }
+
+  public string OfferCode { get; set; }
+
+  public string GiftVoucherNo { get; set; }
+
+  public string IN_TIME { get; set; }
+
+  public string OUT_TIME { get; set; }
+
+  public Collections.ItemDetail[] ItemDetail { get; set; }
+
+  public Collections.PaymentDetail[] PaymentDetail { get; set; }
+}
